@@ -37,6 +37,11 @@ a {
     border-bottom: 1px dotted gray;
 }
 
+a:hover {
+    color: #F3B69A;
+    border-bottom-color: #F3B69A;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
