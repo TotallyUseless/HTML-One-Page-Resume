@@ -37,6 +37,24 @@ a {
     border-bottom: 1px dotted gray;
 }
 
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+li:before {
+    content: "→";
+    padding-right: 8px;
+    vertical-align: 0%;
+    margin-left: -27px;
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -69,5 +87,25 @@ a {
 
     .right {
         padding-bottom: 1.3rem;
+    }
+
+
+    ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    li {
+        padding-left: 1.5em;
+        text-indent: -1.5em;
+    }
+
+    li:before {
+        content: "→";
+        size: 1rem;
+        padding-right: 6px;
+        vertical-align: 0%;
+        margin-left: 0px;
     }
 }
