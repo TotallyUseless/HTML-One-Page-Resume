@@ -3,7 +3,6 @@
 body {
     font-family: 'Glory', sans-serif;
     color: black;
-    background-color: white;
     font-size: 18px;
     line-height: 1.8;
     letter-spacing: 0.0125em;
@@ -45,14 +44,7 @@ a {
         font-size: 16px;
         line-height: 2;
         letter-spacing: 0.0125em;
-        text-align: left;
         padding: 0rem 1rem 1rem 1rem;
-    }
-
-    hr {
-        border: 0;
-        height: 1px;
-        background: black;
     }
 
     .container {
