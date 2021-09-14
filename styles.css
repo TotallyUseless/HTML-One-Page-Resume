@@ -21,8 +21,8 @@ body {
 div {
     text-align: left;
     width: 50%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 hr {
@@ -57,7 +57,7 @@ li:before {
     content: "→";
     padding-right: 8px;
     vertical-align: 0%;
-    margin-left: -27px;
+
 }
 
 
