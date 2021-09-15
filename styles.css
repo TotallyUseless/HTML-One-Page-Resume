@@ -42,6 +42,14 @@ a:hover {
     border-bottom-color: #F3B69A;
 }
 
+.school {
+    font-size: 20px;
+}
+
+.club {
+    font-size: 15px;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
