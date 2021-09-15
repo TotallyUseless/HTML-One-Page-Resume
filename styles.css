@@ -48,6 +48,19 @@ a:hover {
     font-size: 15px;
 }
 
+.print {
+    font-size: 16px;
+    font-family: 'Glory', sans-serif;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+.print:hover {
+    color: #F3B69A;
+    border-bottom-color: #F3B69A;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
@@ -132,5 +145,9 @@ li:before {
         letter-spacing: 0.0125em;
         text-align: left;
         padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .print {
+        visibility: hidden;
     }
 }
