@@ -121,3 +121,16 @@ li:before {
         margin-left: 0px;
     }
 }
+
+@media only print {
+    body {
+        background-color: white;
+        font-family: 'Glory', sans-serif;
+        color: black;
+        font-size: 15.5px;
+        line-height: 1.5;
+        letter-spacing: 0.0125em;
+        text-align: left;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+}
