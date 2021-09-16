@@ -128,7 +128,6 @@ li:before {
 
     li:before {
         content: "→";
-        size: 1rem;
         padding-right: 6px;
         vertical-align: 0%;
         margin-left: 0px;
